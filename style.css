@@ -34,12 +34,12 @@ p, button, a {
     flex-direction: row;
     max-width: 1000px;
     margin: 0 auto;
-    height: 70px;
+    height: auto;
 }
 
 .menunav .logogroupe {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 .menunav .navlogo {
@@ -112,7 +112,6 @@ p, button, a {
 .actu .container .left img {
     max-width: 100%;
     height: auto;
-    transform: rotate(-2deg);
     filter: drop-shadow(0px 0px 30px rgba(236, 235, 243, 0.5));
 }
 
@@ -197,10 +196,16 @@ p, button, a {
     text-align: center;
 }
 
-.a-propos p {
+.presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.a-propos .presentation p {
     color: #c7D6D5;
     text-align: center;
     margin: 25px 0;
+    max-width: 450px;
 }
 
 .a-propos .container img {

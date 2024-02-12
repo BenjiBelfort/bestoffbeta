@@ -25,7 +25,29 @@ p, button, a {
     font-size: 1em;
 }
 
-/* MENU DE NAVIGATION */
+                                        /* MENU DE NAVIGATION */
+
+.menumobile {
+    display: none;
+    justify-content: center;
+}
+
+.menumobileformat {
+    display: flex;
+    justify-content: center;
+}
+
+.menumobile .menumobileformat a {
+    text-decoration: none;
+    color: #ecebf3;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.menumobile .menumobileformat a:hover {
+    text-shadow: 0px 0px 15px #ecebf3;
+}
 
 .menunav {
     display: flex;
@@ -63,8 +85,16 @@ p, button, a {
     text-shadow: 0px 0px 15px #c20114;
 }
 
+@media only screen and (max-width: 768px) {
+    .menunav {
+        display: none;
+    }
 
-    /* -- SECTION ACTU -- */
+    .menumobile {
+        display: contents;
+    }
+}
+                                        /* -- SECTION ACTU -- */
 
 .actu {
     background-image: url(images/rideau-noir2.jpg);
@@ -77,6 +107,11 @@ p, button, a {
 
 .annonce-spectacle {
     padding: 50px 20px;
+}
+
+.titrespectacle img {
+    width: 300px;
+    filter: drop-shadow(0px 0px 30px rgba(236, 235, 243, 0.8));
 }
 
 .actu h1 {
@@ -139,14 +174,23 @@ p, button, a {
     height: auto;
 }
 
-.actu .container .right .logos-partenaires .logos-partenaires-left,
-.actu .container .right .logos-partenaires .logos-partenaires-right {
+/* LOGO ED DANSE */
+.actu .container .right .logos-partenaires .logos-partenaires-left {
     width: 40%;
     max-width: 40%;
     height: auto;
     margin-bottom: 30px;
-
 }
+
+/* LOGO SEMONS L'ESPOIR */
+.actu .container .right .logos-partenaires .logos-partenaires-right {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 0px 30px rgba(236, 235, 243, 0.8));
+}
+
 
 .actu .container .right .cta {
     background-color: #c20114;
@@ -183,7 +227,19 @@ p, button, a {
     margin-top: 50px;
 }
 
-    /* -- SECTION A PROPOS -- */
+.logoBestOff {
+    display: flex;
+    justify-content: center;
+}
+
+.logoBestOff img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+
+
+                                        /* -- SECTION A PROPOS -- */
 
 
 .a-propos {

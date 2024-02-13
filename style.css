@@ -9,7 +9,7 @@ body {
     background-color: #0c120c;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     color: #ecebf3;
@@ -223,15 +223,17 @@ p, button, a {
 
 .actu .container .right .cta {
     background-color: #c20114;
-    width: 200px;
+    width: 350px;
     height: 40px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    animation: shadow 3s infinite ease-in-out;
 }
 
 .actu .container .right .cta a {
     text-decoration: none;
+    font-size: 1.2em;
     color: #ecebf3;
 }
 
@@ -239,13 +241,25 @@ p, button, a {
     box-shadow: 0px 0px 15px 3px #c20114;
 }
 
+@keyframes shadow {
+    0% {
+        box-shadow: 0px 0px 10px 2px #c20114
+    }
+    50% {
+        box-shadow: 0px 0px 15px 7px #c20114
+    }
+    100% {
+        box-shadow: 0px 0px 10px 2px #c20114
+    }
+}
+
+
 .actu .container em {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0px 0px 10px #ecebf3;
     text-transform: uppercase;
     font-weight: bold;
-    font-style: normal;
-    
+    font-style: normal;  
 }
 
 .container-titre {
@@ -356,4 +370,23 @@ footer p {
     margin: 0;
     font-size: 14px;
     color: #ECEBF3;
+}
+
+.signatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signature-bb h6 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    margin-left: 3px;
+    color: violet;
+}
+
+.signature-bb .BB {
+    display: inline-block;
+    color: rgb(197, 7, 249);
+    transform: rotateY(180deg);
 }

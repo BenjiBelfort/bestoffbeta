@@ -21,7 +21,7 @@ h2 {
 }
 
 p, button, a {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1em;
 }
 
@@ -121,7 +121,6 @@ p, button, a {
 }
 
 .annonce-spectacle p {
-    font-family: "Open Sans", sans-serif;
     font-size: 1em;
     color: #ecebf3;
     text-shadow: 0px 0px 10px #ecebf3;
@@ -254,7 +253,7 @@ p, button, a {
 }
 
 
-.actu .container em {
+em {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0px 0px 10px #ecebf3;
     text-transform: uppercase;
@@ -303,7 +302,7 @@ p, button, a {
 .a-propos .presentation p {
     color: #c7D6D5;
     text-align: center;
-    margin: 25px 0;
+    margin: 25px 10px;
     max-width: 450px;
 }
 
@@ -319,25 +318,31 @@ p, button, a {
   }
   
 .a-propos .card-container .card {
-    border: 1.5px solid #ecebf3;
+    border: 1px solid #C7D6D5;
+    background-color: #C7D6D5;
     overflow: hidden;
     margin: 15px;
-    width: 250px;
-    height: 300px;
-    box-shadow: 0px 0px 5px rgba(236, 234, 243, 0.5);
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 10px rgba(236, 234, 243, 0.5);
     border-radius: 15px;
 }
 
 .a-propos .card-container .card h4 {
     text-align: center;
-    font-size: 1.5em;
+    color: #0c120c;
+    font-size: 1.3em;
     margin: 20px 0;
 }
 
-.a-propos .card-container .card p {
-    color: #c7D6D5;
-    text-align: center;
-    margin: 0 5px;
+.card-content p {
+    color: #0c120c;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+.card-content strong {
+    font-weight: bolder;
 }
 
 .a-propos .card-container .card img {
@@ -358,7 +363,7 @@ p, button, a {
 
 
 
-
+                                        /* -- FOOTER -- */
 
 footer {
     text-align: center;

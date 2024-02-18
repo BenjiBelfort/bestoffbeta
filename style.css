@@ -162,6 +162,8 @@ p, button, a {
 } */
 
 .actu .container .left {
+    display: flex;
+    justify-content: center;
     width: 440px;
     height: auto;
 }
@@ -169,7 +171,7 @@ p, button, a {
 .actu .container .right {
     width: 440px;
     height: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 .actu .container .left img {
@@ -318,25 +320,24 @@ em {
   }
   
 .a-propos .card-container .card {
-    border: 1px solid #C7D6D5;
-    background-color: #C7D6D5;
+    border: 2px solid #ECEBF3;
     overflow: hidden;
     margin: 15px;
     width: 300px;
     height: 450px;
-    box-shadow: 0px 0px 10px rgba(236, 234, 243, 0.5);
+    box-shadow: 0px 0px 15px rgba(236, 234, 243, 0.5);
     border-radius: 15px;
 }
 
 .a-propos .card-container .card h4 {
     text-align: center;
-    color: #0c120c;
+    color: #ECEBF3;
     font-size: 1.3em;
     margin: 20px 0;
 }
 
 .card-content p {
-    color: #0c120c;
+    color: #ECEBF3;
     text-align: justify;
     margin: 5px 15px;
 }

@@ -162,6 +162,8 @@ p, button, a {
 } */
 
 .actu .container .left {
+    display: flex;
+    justify-content: center;
     width: 440px;
     height: auto;
 }
@@ -318,8 +320,7 @@ em {
   }
   
 .a-propos .card-container .card {
-    border: 1px solid #C7D6D5;
-    background-color: #C7D6D5;
+    border: 2px solid #ecebf3;
     overflow: hidden;
     margin: 15px;
     width: 300px;
@@ -330,13 +331,13 @@ em {
 
 .a-propos .card-container .card h4 {
     text-align: center;
-    color: #0c120c;
+    color: #ecebf3;
     font-size: 1.3em;
     margin: 20px 0;
 }
 
 .card-content p {
-    color: #0c120c;
+    color: #ecebf3;
     text-align: justify;
     margin: 5px 15px;
 }

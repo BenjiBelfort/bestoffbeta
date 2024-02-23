@@ -371,8 +371,16 @@ em {
     justify-content: center;
 }
 
+.legende-photo {
+    display: flex;
+    justify-content: center;
+}
 
-
+.legende-photo p {
+    color: #c7D6D5;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
                                         /* -- FOOTER -- */
 

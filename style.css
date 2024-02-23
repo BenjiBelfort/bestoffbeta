@@ -120,6 +120,7 @@ p, button, a {
     padding: 50px 20px;
 }
 
+   /* Best off' présente ;-) */
 .annonce-spectacle p {
     font-size: 1em;
     color: #ecebf3;
@@ -189,6 +190,8 @@ p, button, a {
     margin-top: 30px;
     text-align: left;
     max-width: 400px;
+    line-height: 1.5;
+    font-size: 1.08em;
 }
 
 .actu .container .right .logos-partenaires {
@@ -306,6 +309,8 @@ em {
     text-align: center;
     margin: 25px 10px;
     max-width: 450px;
+    line-height: 1.5;
+    font-size: 1.02em;
 }
 
 .a-propos .container img {
@@ -338,8 +343,9 @@ em {
 
 .card-content p {
     color: #ecebf3;
-    text-align: justify;
+    text-align: center;
     margin: 5px 15px;
+    line-height: 1.4;
 }
 
 .card-content strong {

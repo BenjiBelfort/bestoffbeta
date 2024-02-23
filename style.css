@@ -225,7 +225,7 @@ p, button, a {
 }
 
 
-.actu .container .right .cta {
+.cta {
     background-color: #c20114;
     width: 350px;
     height: 40px;
@@ -233,17 +233,16 @@ p, button, a {
     border-radius: 10px;
     cursor: pointer;
     animation: shadow 3s infinite ease-in-out;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.actu .container .right .cta a {
+.cta a {
     text-decoration: none;
     font-size: 1.2em;
     color: #ecebf3;
 }
 
-.actu .container .right .cta:hover {
-    box-shadow: 0px 0px 15px 3px #c20114;
-}
 
 @keyframes shadow {
     0% {
@@ -257,6 +256,11 @@ p, button, a {
     }
 }
 
+.cta-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 em {
     font-family: 'Times New Roman', Times, serif;

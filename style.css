@@ -11,7 +11,7 @@ body {
 
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     color: #ecebf3;
@@ -24,6 +24,13 @@ h2 {
 
 h3 {
     font-size: 2em;
+    text-align: center;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    color: #ecebf3;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -227,6 +234,8 @@ p, button, a {
     filter: drop-shadow(0px 0px 30px rgba(236, 235, 243, 0.8));
 }
 
+
+/* CSS DES BOUTONS */
 .cta-container {
     display: flex;
     justify-content: center;
@@ -251,6 +260,23 @@ p, button, a {
     color: #ecebf3;
 }
 
+.ctaPartenaires {
+    background-color: #c7D6D5;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: shadowGold 3s infinite ease-in-out;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ctaPartenaires a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #495057;
+}
 
 @keyframes shadow {
     0% {
@@ -261,6 +287,18 @@ p, button, a {
     }
     100% {
         box-shadow: 0px 0px 10px 2px #c20114
+    }
+}
+
+@keyframes shadowGold {
+    0% {
+        box-shadow: 0px 0px 10px 2px #c7D6D5
+    }
+    50% {
+        box-shadow: 0px 0px 15px 7px #c7D6D5
+    }
+    100% {
+        box-shadow: 0px 0px 10px 2px #c7D6D5
     }
 }
 
@@ -310,7 +348,7 @@ em {
     justify-content: center;
 }
 
-.a-propos .presentation p {
+.presentation p {
     color: #c7D6D5;
     text-align: center;
     margin: 25px 10px;

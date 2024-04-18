@@ -244,13 +244,13 @@ p, a {
 
 .cta {
     background-color: #c20114;
-    width: 300px;
-    height: 40px;
     border: none;
     border-radius: 10px;
+    padding: 10px;
     cursor: pointer;
     animation: shadow 3s infinite ease-in-out;
     text-transform: uppercase;
+    text-decoration: none;
     text-align: center;
     color: #ecebf3;
     font-size: 1.2em;
@@ -258,13 +258,13 @@ p, a {
 
 .ctaPartenaires {
     background-color: #c7D6D5;
-    width: 300px;
-    height: 40px;
     border: none;
     border-radius: 10px;
+    padding: 10px;
     cursor: pointer;
     animation: shadowGold 3s infinite ease-in-out;
     text-transform: uppercase;
+    text-decoration: none;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;

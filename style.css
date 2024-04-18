@@ -16,6 +16,7 @@ h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
     color: #ecebf3;
     text-shadow: 0px 0px 10px #ecebf3;
+    text-align: center;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h5 {
     text-align: center;
 }
 
-p, button, a {
+p, a {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
 }
@@ -235,12 +236,11 @@ p, button, a {
 }
 
 
-/* CSS DES BOUTONS */
+                                /* CSS DES BOUTONS */
 .cta-container {
     display: flex;
     justify-content: center;
 }
-
 
 .cta {
     background-color: #c20114;
@@ -252,12 +252,8 @@ p, button, a {
     animation: shadow 3s infinite ease-in-out;
     text-transform: uppercase;
     text-align: center;
-}
-
-.cta a {
-    text-decoration: none;
-    font-size: 1.2em;
     color: #ecebf3;
+    font-size: 1.2em;
 }
 
 .ctaPartenaires {
@@ -270,12 +266,10 @@ p, button, a {
     animation: shadowGold 3s infinite ease-in-out;
     text-transform: uppercase;
     text-align: center;
-}
-
-.ctaPartenaires a {
     text-decoration: none;
     font-size: 1.2em;
     color: #495057;
+
 }
 
 @keyframes shadow {
@@ -345,7 +339,8 @@ em {
 
 .presentation {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentation p {
@@ -355,6 +350,16 @@ em {
     max-width: 450px;
     line-height: 1.5;
     font-size: 1.02em;
+}
+
+.presentation a {
+    color: #ecebf3;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.presentation a:hover {
+    color: #ecebf3;
 }
 
 .a-propos .container img {

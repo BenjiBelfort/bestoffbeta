@@ -54,6 +54,34 @@
     border-radius: 15px;
 }
 
+.partenaires .card-container .cardArgent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #c0c0c0;
+    overflow: hidden;
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+    box-shadow: 0px 0px 20px rgba(192, 192, 192, 0.8);
+    border-radius: 15px;
+}
+
+.partenaires .card-container .cardOr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #FFD700;
+    overflow: hidden;
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.8);
+    border-radius: 15px;
+}
+
+
+
 .partenaires .card-container .card h4 {
     text-align: center;
     color: #ecebf3;

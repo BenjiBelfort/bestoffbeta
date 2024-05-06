@@ -22,6 +22,12 @@
     color: #1e96fc;
 }
 
+.cardfoot {
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 .partenaires .container img {
